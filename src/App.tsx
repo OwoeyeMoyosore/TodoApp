@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 // import { Container } from '@mui/system';
-import {Modal, Container,Box,Input,TextField,Button} from '@mui/material';
+import {Modal, Container,TextField,Button} from '@mui/material';
 import CustomCard from './components/customCard';
 import { CardDto } from './@types/props';
-import { CustomCardProps } from './@types/props';
+// import { CustomCardProps } from './@types/props';
 
 const App: React.FC = () => {
   const [todo,setTodo] = React.useState<CardDto>({
